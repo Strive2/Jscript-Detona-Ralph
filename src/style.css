@@ -1,0 +1,54 @@
+main{
+    height: 100vh;
+    background-image: url("./images/wall.png");
+    background-repeat: repeat;
+}
+
+.infoPanel{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90px;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border-bottom: 7px solid #ffd700;
+}
+
+#timeLeft,
+#scorePoints{
+    margin-top: 5px;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    padding: 75px 0px;
+    align-items: center;
+}
+
+.squareRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.square{
+    height: 25vmin;
+    min-height: 5rem;
+    max-height: 12rem;
+    width: 25vmin;
+    min-width: 5rem;
+    max-width: 12rem;
+    border: 1px solid #ffd700;
+    background-color: #0000008f;
+} 
+
+.hasRalph{
+    background-image: url("./images/ralph.png");
+    background-size: cover;
+}
+
+.ralphHit{
+    background-image: url("./images/ralphHit.png");
+    background-size: cover;
+}
